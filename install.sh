@@ -18,11 +18,11 @@ then
 fi
   echo
   echo "###################################################################"
-  echo "1 Enter"
-  echo "Enter"
-  echo "1 Enter"
-  echo "1 Enter"
-  echo "Enter installation code (aan te maken via dwservice.net)"
+  echo -e "\e[1;41m 1 Enter \e[0m"
+  echo -e "\e[1;41m Enter \e[0m"
+  echo -e "\e[1;41m 1 Enter \e[0m"
+  echo -e "\e[1;41m 1 Enter \e[0m"
+  echo -e "\e[1;41m Enter installation code (aan te maken via dwservice.net) \e[0m"
   echo "###################################################################"
   echo
 wget https://www.dwservice.net/download/dwagent.sh
