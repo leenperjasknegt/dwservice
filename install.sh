@@ -7,15 +7,15 @@
 
 sudo apt update
 echo
-if [ $(dpkg-query -W -f='${Status}' wget 2>/dev/null | grep -c "ok installed") -eq 0 ];
-then
+#if [ $(dpkg-query -W -f='${Status}' wget 2>/dev/null | grep -c "ok installed") -eq 0 ];
+#then
   echo
   echo "###################################################################"
   echo "Installing Wget"
   echo "###################################################################"
   echo
-  sudo apt install wget;
-fi
+#  sudo apt install wget;
+#fi
 then
   echo
   echo "###################################################################"
