@@ -18,7 +18,11 @@ then
 fi
   echo
   echo "###################################################################"
-  echo ""
+  echo "1 Enter"
+  echo "Enter"
+  echo "1 Enter"
+  echo "1 Enter"
+  echo "Enter installation code (aan te maken via dwservice.net)"
   echo "###################################################################"
   echo
 wget https://www.dwservice.net/download/dwagent.sh
